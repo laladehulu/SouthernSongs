@@ -18,7 +18,7 @@
       left: 0;
       position: fixed;
       opacity: 1;
-      transition: 2s ease-in;
+      transition: all 2s ease-in;
     }
     #start-flag{
       position: relative;
@@ -62,7 +62,9 @@
   </div>
     <script>
       document.querySelector(".flag-south").classList.add("flag-south-show");
+      document.querySelector(".flag-south").style.opacity="0";
       document.querySelector(".flag-north").classList.add("flag-north-show");
+      document.querySelector(".flag-north").style.opacity="0";
     </script>
 <script src="main.js"></script>
 
